@@ -68,7 +68,6 @@ span {
   .background-qr {
     margin: 0;
     padding: 1.25em 1.875em 1.25em;
-    width: 100%;
   }
   .w-100 {
     width: 100%;
@@ -86,8 +85,4 @@ span {
     width: 100%;
     max-width: 415px;
   }
-}
-
-@media (min-width: 320px) {
-  
 }
