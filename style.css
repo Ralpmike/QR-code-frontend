@@ -64,10 +64,11 @@ span {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   .background-qr {
     margin: 0;
     padding: 1.25em 1.875em 1.25em;
+    width: 100%;
   }
   .w-100 {
     width: 100%;
@@ -75,11 +76,18 @@ span {
   .container-qr{
     margin: 40px auto;
     padding: 0.9375em 1.25em 0;
+    max-width: 325px;
   }
   .container-qr img {
     width: 100%;
+    max-width: 325px;
   }
   .container-qr div {
     width: 100%;
+    max-width: 415px;
   }
+}
+
+@media (min-width: 320px) {
+  
 }
