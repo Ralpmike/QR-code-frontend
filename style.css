@@ -64,18 +64,9 @@ span {
 @media (max-width: 600px) {
   .background-qr {
     margin: 0;
-    padding: 1.25em 1.875em 1.25em;
   }
   .container-qr{
     margin: 40px auto;
-    max-width: 90%;
-  }
-  .container-qr img {
-    max-width: 90%;
-    
-  }
-  .container-qr div {
-    width: 100%;
     max-width: 90%;
   }
 }
